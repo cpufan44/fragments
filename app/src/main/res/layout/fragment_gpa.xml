@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gpa_info"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/gpa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="4.3"
+        android:textColor="@android:color/white"
+        android:textSize="20dp">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/setGpaTo3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GPA Changed to 3"
+        android:layout_marginLeft="20dp"></Button>
+</LinearLayout>
